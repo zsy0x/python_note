@@ -1,0 +1,216 @@
+# basis.md文件的结构如下：
+
+```python
+1，基本数据类型+运算符
+	1.1，Number
+        1.1.1，int
+        1.1.2，float
+        1.1.3，bool
+        1.1.4，complex
+	1.2，String
+        1.2.1，定义
+        1.2.2，索引,切片
+        1.2.3，转义
+        1.2.4，拼接
+        1.2.5，输出
+        1.2.6，方法
+            1.2.6.1，方法join
+            1.2.6.2，方法split
+            1.2.6.3，方法count
+            1.2.6.4，方法index,find,rindex,rfind
+            1.2.6.5，方法isdigit,isalpha,isalnum,isupper,islower
+            1.2.6.6，方法upper,lower
+            1.2.6.7，方法startswith,endswith
+            1.2.6.8，方法strip,lstrip,rstrip
+            1.2.6.9，方法replace
+            1.2.6.10，方法center,ljust,rjust
+            1.2.6.11，方法zfill
+	1.3，List
+        1.3.1，定义
+        1.3.2，索引,切片
+        1.3.3，拼接
+        1.3.4，输出
+        1.3.5，推导式
+        1.3.6，方法
+            1.3.6.1，方法append,insert,extend
+            1.3.6.2，方法pop,remove
+            1.3.6.3，方法count,index
+            1.3.6.4，方法sort,reverse
+	1.4，Tuple
+        1.4.1，定义
+        1.4.2，索引,切片
+        1.4.3，拼接
+        1.4.4，输出
+        1.4.5，推导式
+        1.4.6，方法count,index
+	1.5，Dictionary
+        1.5.1，定义
+        1.5.2，访问
+        1.5.3，输出
+        1.5.4，增加
+        1.5.5，删除
+	1.6，Set
+        1.6.1，定义
+        1.6.2，访问
+        1.6.3，输出
+        1.6.4，增加
+        1.6.5，删除
+        1.6.6，关系
+        1.6.7，运算
+	1.7，运算符
+        1.7.1，算术运算符
+        1.7.2，关系运算符
+        1.7.3，逻辑运算符
+        1.7.4，赋值运算符
+        1.7.5，按位元素符
+        1.7.6，成员元素符
+        1.7.7，身份元素符
+2，表达式
+    2.1，算数表达式
+    2.2，关系表达式
+    2.3，逻辑表达式
+    2.4，赋值表达式
+    2.5，按位表达式
+    2.6，成员表达式
+    2.7，身份表达式
+3，流程控制语句
+    3.1，条件语句
+    3.2，循环语句
+    3.3，实例：冒泡排序
+4，函数+类
+    4.1，作用
+    4.2，区别
+    4.3，函数
+		4.3.1，定义
+            内部函数(68)：
+            1，函数int,float,bool,complex,str,list,tuple,dict,set
+            2，函数chr,ord
+            3，函数bin,oct,hex
+            4，函数max,min,sum,abs,round
+            5，函数print,input
+            6，函数len,sorted,reversed
+            7，函数map
+            8，函数å lter
+            9，函数zip
+            10，函数all,any
+            11，函数eval
+            12，函数id,type,open
+            模块中的函数
+            自定义函数
+            匿名函数
+        4.3.2，参数
+        4.3.3，嵌套
+        4.3.4，变量作用域
+	4.4，类
+        4.4.1，封装
+        4.4.2，继承
+        4.4.3，多态
+5，模块：包含所有定义的函数和变量的文件，后缀名为.py
+	5.1，random
+        5.1.1，random
+        5.1.2，uniform
+        5.1.3，randint
+        5.1.4，randrange
+        5.1.5，choice
+        5.1.6，sample
+        5.1.7，shuffle
+        5.1.8，seed
+    5.2，math
+    5.3，os
+    5.4，Json
+        5.4.1，dump
+        5.4.2，load
+        5.4.3，dumps
+        5.4.4，loads
+	5.5，datetime
+        5.5.1，datetime.now,datetime.combine
+        5.5.2，datetime,date,time
+        5.5.3，datetime.strptime
+6，包
+7，其他
+    7.1，好的编程习惯：声明编码与路径
+    7.2，变量的命名
+    7.3，变量的赋值
+    7.4，常见错误
+        7.4.1，AttributeError属性错误
+        7.4.2，IndentationError缩进错误
+        7.4.3，IndexError索引错误
+        7.4.4，SyntaxError语法错误
+        7.4.5，TypeError类型错误
+        7.4.6，NameError名称错误
+        7.4.7，ValueError值错误
+        7.4.8，KeyError键错误
+	7.5，文件
+        7.5.1，读文本文件
+        7.5.2，写文本文件
+        7.5.3，读csv文件
+        7.5.4，写csv文件
+```
+
+# matplotlib.ipynb文件的结构如下：
+
+```python
+1，参数配置
+	1.1，Matplotlib参数配置
+	1.2，Pyecharts参数配置
+2，对比型图表
+	2.1，柱状图/条形图
+	2.2，雷达图
+3，趋势型图表
+	3.1，折线图
+	3.2，面积图
+4，分布型图表
+	4.1，散点图
+	4.2，直方图
+	4.3，箱线图
+	4.4，热力图
+5，构成型图表
+	5.1，饼图/环形图
+6，联系型图表
+	6.1，和弦图
+	6.2，旭日图
+7，其他
+	7.1，日历图
+```
+
+# numpy.ipynb文件的结构如下：
+
+```python
+1，ndarray基础
+	1.1，ndarray的创建
+	1.2，ndarray的属性
+	1.3，ndarray的方法
+	1.4，ndarray的运算
+	1.5，ndarray的函数
+2，ndarray进阶
+	2.1，时间处理
+	2.2，读写二进制文件
+	2.3，自定义数据类型
+```
+
+# pandas.ipynb文件的结构如下：
+
+```python
+1，DataFrame基础
+	1.1，DataFrame的创建
+	1.2，DataFrame的属性
+	1.3，DataFrame的方法
+	1.4，DataFrame的运算
+	1.5，DataFrame的函数
+2，DataFrame进阶
+	2.1，读写不同的文件
+	2.2，合并数据
+    	2.2.1，堆叠合并
+        2.2.2，主键合并
+	2.3，清洗数据
+    	2.3.1，删除重复值
+        2.3.2，删除替换缺失值
+        2.3.3，删除替换异常值
+    2.4，标准化数据
+    	2.4.1，归一标准化
+        2.4.2，离差标准化
+        2.4.3，标准差标准化
+        2.4.4，小数定标标准化
+	2.5，分组聚合
+```
+
